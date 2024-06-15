@@ -1,0 +1,49 @@
+WelcomeWidget {
+    layout: vertical;
+    background: $boost;
+    margin: 1;
+    padding: 1;
+    align: center middle;
+}
+
+ReinstallScreenContainer {
+    layout: vertical;
+    background: $boost;
+    margin: 1;
+    padding: 1;
+    align: center middle;
+}
+
+NetworkScreenContainer {
+    layout: vertical;
+    background: $boost;
+    margin: 1;
+    padding: 1;
+    align: center middle;
+}
+
+Button {
+    width: 32;
+    background: gray;
+    color: white;
+}
+
+#open_console {
+    background: green;
+}
+
+#open_disk_util {
+    background: green;
+}
+
+#restore_base_from_disk {
+    background: red;
+}
+
+#reinstall_sbos {
+    background: darkcyan;
+}
+
+#configure_network {
+    background: blue;
+}
